@@ -57,11 +57,26 @@ h1 {
 	padding: 1em 0;
 }
 
-#progress-bar {
+.group {
+	display: flex;
+	align-content: stretch;
+	width: 100%;
+}
+
+.progress{
 	height: 0.75em;
 	margin-top: 1em;
+}
+
+#progress-bar {
 	width: 75%;
 	background-color: #F15E33;
+}
+
+#empty-progress-bar {
+	width: 25%;
+	background-color: #FAFAFA;
+	border: thin solid #E3E3E3;
 }
 
 .gift-form {
