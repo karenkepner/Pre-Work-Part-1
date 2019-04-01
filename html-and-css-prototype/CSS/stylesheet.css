@@ -104,6 +104,11 @@ h1 {
 	background-color: #02BD1C;
 }
 
+.why {
+	color: #6AC0E4;
+	font-style: italic;
+}
+
 .actions {
 	display: flex;
 	justify-content: space-between;
