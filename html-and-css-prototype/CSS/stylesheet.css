@@ -133,15 +133,17 @@ h1 {
 }
 
 .actions {
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1em;
+	margin-top: 0.75em;
 }
 
 .actions button {
 	font-family: "rooney-web", "Noto Sans", "AmericanTypewriter", Rockwell, serif;
 	color: #787878;
 	border: thin solid #E3E3E3;
-	margin: 1em 0;
-	padding: 1em;
+	border-radius: 0.25em;
+	padding: 0.75em;
 	background-color: #FAFAFA;
 }
