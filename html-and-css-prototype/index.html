@@ -2,18 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML/CSS Prototype</title>
     <link rel="stylesheet" href="CSS/stylesheet.css">
   </head>
   <body>
-    <div class="container">
-      <h1>Recreate this using HTML &amp; CSS</h1>
-      <img src="https://s3.amazonaws.com/f.cl.ly/items/2z3C3Z0L2Q0R282p1V0z/Image%202014-12-19%20at%2010.07.09%20AM.png" width="303" />
-    </div>
-
+    <header>
+      <div class="container">
+        <h1>Recreate this using HTML &amp; CSS</h1>
+        <img src="https://s3.amazonaws.com/f.cl.ly/items/2z3C3Z0L2Q0R282p1V0z/Image%202014-12-19%20at%2010.07.09%20AM.png" width="303" alt="this is an image of the mock-up of the project, an input with a submit button to donate"/>
+      </div>
+    </header>
     <!-- Your code goes here -->
-
-
-
+    <main>
+      <section class="project">
+        <form>
+          <p><span class="highlight">Only three days left</span> to fund this project.</p>
+          <p>Join the 42 other donors who have already supported this project. Every dollar helps.</p>
+          <label for="gift">
+            <input type="number" id="gift" name="gift" placeholder="$50">
+          </label>
+          <button id="give" type="button">Give Now</button>
+          <p><em>Why give $50?</em></p>
+        </form>
+        <button id="save" type="button">Save for later</button>
+        <button id="tell" type="button">Tell your friends</button>
+      </section>
+    </main>
   </body>
 </html>
