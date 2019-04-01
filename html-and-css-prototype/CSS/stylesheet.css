@@ -6,7 +6,7 @@
 }
 
 body {
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-family: "rooney-sans", "Noto Sans", Avenir-Book, Calibri, sans-serif;
 	color: #424242;
 	line-height: 1.4;
 }
@@ -104,9 +104,9 @@ h1 {
 }
 
 .input-btn-area {
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 
 #gift,
