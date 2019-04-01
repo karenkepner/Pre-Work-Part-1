@@ -13,7 +13,7 @@ body {
 
 /* Fonts */
 h1 {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-family: "rooney-web", "Noto Sans", "AmericanTypewriter", Rockwell, serif;
 	font-size: 2.5em;
 	font-weight: bold;
 }
@@ -40,3 +40,43 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.project {
+	font-family: "rooney-web", "Noto Sans", "AmericanTypewriter", Rockwell, serif;
+	margin: 2em auto;
+	width: 265px;
+	
+}
+
+.pop-up {
+	font-size: 0.75em;
+	color: #FFF;
+	text-align: center;
+	border-radius: 0.25em;
+	background-color: #424242;
+	padding: 1em 0;
+}
+
+#progress-bar {
+	height: 0.75em;
+	margin-top: 1em;
+	/* margin-bottom: 0; */
+	width: 75%;
+	background-color: #F15E33;
+}
+.gift-form {
+	padding: 1.5em;
+	box-shadow: 0 6px 0 -5px #F5F5F5;
+	border: solid 1px #F5F5F5;
+}
+
+.form-text {
+	color: #777;
+	font-size: 0.75em;
+	padding: 0.75em 0;
+}
+
+.highlight {
+	color: #F15E33;
+}
+

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML/CSS Prototype</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" href="CSS/stylesheet.css">
   </head>
   <body>
@@ -16,17 +17,24 @@
     <!-- Your code goes here -->
     <main>
       <section class="project">
-        <form>
-          <p><span class="highlight">Only three days left</span> to fund this project.</p>
-          <p>Join the 42 other donors who have already supported this project. Every dollar helps.</p>
+        <div>
+          <p class="pop-up">$167 still needed for this project</p>
+        </div>
+        <div id="progress-bar"></div>
+        <form class="gift-form">
+          <p class="form-text"><span class="highlight">Only three days left</span> to fund this project.</p>
+          <p class="form-text">Join the <strong id="donor-num">42</strong> other donors who have already supported this project. Every dollar helps.</p>
           <label for="gift">
             <input type="number" id="gift" name="gift" placeholder="$50">
           </label>
           <button id="give" type="button">Give Now</button>
-          <p><em>Why give $50?</em></p>
+          <p class="form-text"><em>Why give $50?</em></p>
         </form>
-        <button id="save" type="button">Save for later</button>
-        <button id="tell" type="button">Tell your friends</button>
+        <div class="actions">
+          <button id="save" type="button">Save for later</button>
+          <button id="tell" type="button">Tell your friends</button>
+        </div>
+
       </section>
     </main>
   </body>
