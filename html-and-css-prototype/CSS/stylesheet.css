@@ -45,7 +45,15 @@ h1 {
 	font-family: "rooney-web", "Noto Sans", "AmericanTypewriter", Rockwell, serif;
 	margin: 2em auto;
 	width: 265px;
-	
+}
+
+.pointer-down {
+	margin-left: 85%;	
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #424242;
 }
 
 .pop-up {
@@ -65,7 +73,7 @@ h1 {
 
 .progress{
 	height: 0.75em;
-	margin-top: 1em;
+	margin-top: 0.25em;
 }
 
 #progress-bar {
