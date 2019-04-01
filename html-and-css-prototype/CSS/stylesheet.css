@@ -60,19 +60,19 @@ h1 {
 #progress-bar {
 	height: 0.75em;
 	margin-top: 1em;
-	/* margin-bottom: 0; */
 	width: 75%;
 	background-color: #F15E33;
 }
+
 .gift-form {
-	padding: 1.5em;
+	padding: 0.5em 1.25em;
 	box-shadow: 0 6px 0 -5px #F5F5F5;
-	border: solid 1px #F5F5F5;
+	border: 1px solid #F5F5F5;
 }
 
 .form-text {
 	color: #777;
-	font-size: 0.75em;
+	font-size: 0.73em;
 	padding: 0.75em 0;
 }
 
@@ -80,3 +80,40 @@ h1 {
 	color: #F15E33;
 }
 
+.input-btn-area {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#gift,
+#give {
+	font-size: 0.9em;
+	width: 47%;
+	border-radius: 0.25em;
+}
+
+#gift {
+	font-weight: bold;
+	padding: 0.9em;
+	border: thin solid #E3E3E3;
+}
+
+#give {
+	color: #FFF;
+	background-color: #02BD1C;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.actions button {
+	font-family: "rooney-web", "Noto Sans", "AmericanTypewriter", Rockwell, serif;
+	color: #787878;
+	border: thin solid #E3E3E3;
+	margin: 1em 0;
+	padding: 1em;
+	background-color: #FAFAFA;
+}
